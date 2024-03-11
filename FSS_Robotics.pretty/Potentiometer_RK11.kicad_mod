@@ -1,0 +1,32 @@
+(footprint "Potentiometer_RK11" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "MATE Controller.kicad_sch")
+  (property "Sheetname" "")
+  (attr through_hole)
+  (fp_text reference "U1" (at 0 5.08 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 37a1749d-b925-4f34-a518-7b8d76485dd0)
+  )
+  (fp_text value "potentiometer" (at 0.25 7.33 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f1abda00-02f3-4fcc-8c9d-1f358626d128)
+  )
+  (fp_text user "${REFERENCE}" (at 0.25 8.83 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8b7e4ac1-530d-44c9-bd42-fbb66d27be1a)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 2.1) (layers "*.Cu" "*.Mask") (tstamp 1faf91d2-ac05-462a-88b5-001989ba269e))
+  (pad "" thru_hole circle (at 9.25 11) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 5ed3381a-1797-4301-ab98-31d7407cfab0))
+  (pad "" thru_hole circle (at 11 0) (size 4 4) (drill 2.1) (layers "*.Cu" "*.Mask") (tstamp a4b633ff-423f-43ea-9733-755040389564))
+  (pad "1" thru_hole circle (at 1.75 11) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 5705091c-1624-4f32-8ad7-a265ff6543ab))
+  (pad "2" thru_hole circle (at 4.25 11) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 45932ea0-66df-46b3-9f37-e54802e2480e))
+  (pad "3" thru_hole circle (at 6.75 11) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 0138f243-7dd1-4f22-b7f9-b2b87b0421a1))
+  (group "" (id c864a7f6-d8a8-47c2-9191-053ef951bfdb)
+    (members
+      0138f243-7dd1-4f22-b7f9-b2b87b0421a1
+      45932ea0-66df-46b3-9f37-e54802e2480e
+      5705091c-1624-4f32-8ad7-a265ff6543ab
+      5ed3381a-1797-4301-ab98-31d7407cfab0
+    )
+  )
+)
